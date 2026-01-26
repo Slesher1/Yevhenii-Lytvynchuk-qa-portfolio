@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Junior QA Engineer Portfolio - Manual Testing, Test Documentation, Bug Reports">
+    <title>Yevhenii Lytvynchuk | Junior QA Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">YL</a>
+            <ul class="nav-menu">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#bug-reports">Bug Reports</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#mindset">QA Mindset</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero">
+        <div class="container">
+            <h1>Yevhenii Lytvynchuk</h1>
+            <p class="hero-title">Junior QA Engineer</p>
+            <p class="hero-description">
+                Junior QA Engineer with hands-on experience in manual testing and IT systems. 
+                Skilled in creating clear, structured bug reports aligned with professional QA standards. 
+                Currently completing a QA Engineering course with practical experience in test case design and defect tracking.
+            </p>
+            <p class="hero-skills">
+                <span class="skill-tag">Manual Testing</span>
+                <span class="skill-tag">Test Documentation</span>
+                <span class="skill-tag">Bug Reporting</span>
+                <span class="skill-tag">Jira</span>
+                <span class="skill-tag">TestRail</span>
+                <span class="skill-tag">API Testing</span>
+            </p>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>QA & Testing</h3>
+                    <ul>
+                        <li>Functional Testing</li>
+                        <li>Regression Testing</li>
+                        <li>Smoke Testing</li>
+                        <li>Exploratory Testing</li>
+                        <li>Test Case Design & Execution</li>
+                        <li>Test Requirement Analysis</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Test Documentation</h3>
+                    <ul>
+                        <li>Test Cases</li>
+                        <li>Checklists</li>
+                        <li>Bug Reports (Severity & Priority)</li>
+                        <li>Clear Reproduction Steps</li>
+                        <li>Video Evidence</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Tools & Technologies</h3>
+                    <ul>
+                        <li>Jira</li>
+                        <li>TestRail (Basic)</li>
+                        <li>Postman</li>
+                        <li>Visual Studio (Basic)</li>
+                        <li>Git (Basic)</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>HTML / CSS</li>
+                        <li>SQL Basics</li>
+                        <li>Chrome DevTools</li>
+                        <li>Client-Server Architecture</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>E-Commerce Web Application</h3>
+                    <p class="project-description">
+                        Comprehensive QA testing project for an online store with product catalog, 
+                        shopping cart, and checkout functionality.
+                    </p>
+                    <p class="project-type"><strong>Testing Type:</strong> Functional, Regression, UI/UX</p>
+                    <h4>Tasks Completed:</h4>
+                    <ul>
+                        <li>Created test cases and checklists for core functionality</li>
+                        <li>Documented defects with screenshots and clear reproduction steps</li>
+                        <li>Performed regression testing after bug fixes</li>
+                        <li>Organised QA documentation in Notion</li>
+                    </ul>
+                </article>
+                <article class="project-card">
+                    <h3>API Testing Project</h3>
+                    <p class="project-description">
+                        REST API testing for a web application. Tested endpoints for CRUD operations, 
+                        authentication, and error handling using Postman.
+                    </p>
+                    <p class="project-type"><strong>Testing Type:</strong> API Testing, Integration Testing</p>
+                    <h4>Tasks Completed:</h4>
+                    <ul>
+                        <li>Created Postman collection with API requests</li>
+                        <li>Tested positive and negative scenarios</li>
+                        <li>Validated response codes and data formats</li>
+                        <li>Documented API testing checklists and bug reports</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bug Reports Section -->
+    <section id="bug-reports" class="section bug-reports">
+        <div class="container">
+            <h2>How I Do Bug Reports(Examples)</h2>
+            <p class="scroll-hint">← Scroll to see more →</p>
+            <div class="bugs-slider">
+                <article class="bug-card">
+                    <span class="bug-number">1 / 3</span>
+                    <h3 class="bug-title">Shopping cart does not update quantity when clicking "+" button</h3>
+                    <div class="bug-details">
+                        <div class="bug-field">
+                            <span class="bug-label">Environment:</span>
+                            <span>Chrome 120.0, Windows 11, Production (v2.1.3)</span>
+                        </div>
+                        <div class="bug-field">
+                            <span class="bug-label">Steps to Reproduce:</span>
+                            <ol>
+                                <li>Open the website and log in with valid credentials</li>
+                                <li>Navigate to any product page</li>
+                                <li>Click "Add to Cart" button</li>
+                                <li>Open the shopping cart</li>
+                                <li>Click the "+" button to increase quantity</li>
+                            </ol>
+                        </div>
+                        <div class="bug-field">
+                            <span class="bug-label">Expected Result:</span>
+                            <p>Product quantity increases by 1, total price updates accordingly</p>
+                        </div>
+                        <div class="bug-field">
+                            <span class="bug-label">Actual Result:</span>
+                            <p>Quantity remains unchanged. Console shows "TypeError: Cannot read property 'quantity' of undefined"</p>
+                        </div>
+                        <div class="bug-meta">
+                            <span class="severity high">Severity: High</span>
+                            <span class="priority high">Priority: High</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bug-card">
+                    <span class="bug-number">2 / 3</span>
+                    <h3 class="bug-title">Password reset email contains broken link</h3>
+                    <div class="bug-details">
+                        <div class="bug-field">
+                            <span class="bug-label">Environment:</span>
+                            <span>Firefox 121.0, macOS Sonoma, Staging (v2.2.0-beta)</span>
+                        </div>
+                        <div class="bug-field">
+                            <span class="bug-label">Steps to Reproduce:</span>
+                            <ol>
+                                <li>Go to login page</li>
+                                <li>Click "Forgot Password"</li>
+                                <li>Enter valid email address</li>
+                                <li>Check email inbox</li>
+                                <li>Click the reset password link</li>
+                            </ol>
+                        </div>
+                        <div class="bug-field">
+                            <span class="bug-label">Expected Result:</span>
+                            <p>User is redirected to password reset form</p>
+                        </div>
+                        <div class="bug-field">
+                            <span class="bug-label">Actual Result:</span>
+                            <p>404 Page Not Found error. Link contains duplicate domain: "https://example.com/https://example.com/reset?token=..."</p>
+                        </div>
+                        <div class="bug-meta">
+                            <span class="severity critical">Severity: Critical</span>
+                            <span class="priority high">Priority: High</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bug-card">
+                    <span class="bug-number">3 / 3</span>
+                    <h3 class="bug-title">Search results show deleted products</h3>
+                    <div class="bug-details">
+                        <div class="bug-field">
+                            <span class="bug-label">Environment:</span>
+                            <span>Edge 120.0, Windows 10, Production (v2.1.3)</span>
+                        </div>
+                        <div class="bug-field">
+                            <span class="bug-label">Steps to Reproduce:</span>
+                            <ol>
+                                <li>Admin: Delete a product from catalog</li>
+                                <li>User: Search for the deleted product by name</li>
+                                <li>Observe search results</li>
+                            </ol>
+                        </div>
+                        <div class="bug-field">
+                            <span class="bug-label">Expected Result:</span>
+                            <p>Deleted product does not appear in search results</p>
+                        </div>
+                        <div class="bug-field">
+                            <span class="bug-label">Actual Result:</span>
+                            <p>Deleted product appears in results. Clicking it leads to 404 error page</p>
+                        </div>
+                        <div class="bug-meta">
+                            <span class="severity medium">Severity: Medium</span>
+                            <span class="priority medium">Priority: Medium</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section certificates">
+        <div class="container">
+            <h2>Certificates & Learning</h2>
+            <div class="certificates-grid">
+                <article class="certificate-card has-image">
+                    <img src="certificate-experiencely.png" alt="Software Testing Program Certificate" class="certificate-image">
+                    <h3>Software Testing Program</h3>
+                    <p class="certificate-platform">Experiencely</p>
+                    <p class="certificate-year">202</p>
+                </article>
+                <article class="certificate-card istqb">
+                    <h3>ISTQB Foundation Level</h3>
+                    <p class="certificate-platform">ISTQB</p>
+                    <p class="certificate-status">In Progress</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <article class="experience-card">
+                <h3>Business Technical Specialist / Technical Specialist</h3>
+                <p class="experience-company">Linkos, Ukraine</p>
+                <p class="experience-period">2019 – 2022</p>
+                <ul class="experience-tasks">
+                    <li>Provided technical support for software and hardware systems, including installation, configuration, and troubleshooting</li>
+                    <li>Created and maintained technical and user documentation</li>
+                    <li>Tracked incidents and tasks in Jira</li>
+                    <li>Communicated technical issues clearly to clients and internal teams</li>
+                    <li>Strong focus on accuracy and attention to detail</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <!-- Education Section -->  
+    <section id="education" class="section education">
+        <div class="container">
+            <h2>Education</h2>
+            <article class="education-card">
+                <h3>BSc Computer Science</h3>
+                <p class="education-specialty">Computer Science</p>
+                <p class="education-university">Kyiv National Economic University</p>
+                <p class="education-year">2016 - 2021</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- QA Mindset Section -->
+    <section id="mindset" class="section mindset">
+        <div class="container">
+            <h2>QA Mindset</h2>
+            <div class="mindset-content">
+                <p>
+                    Detail-oriented and proactive QA professional with a passion for delivering high-quality software. 
+                    My approach combines technical understanding with user perspective — I don't just find bugs, 
+                    I understand why they matter and communicate them clearly to developers.
+                </p>
+                <p>
+                    I believe in structured documentation, clear reproduction steps, and proactive communication 
+                    to ensure issues are resolved efficiently. My goal is to be a reliable team member who contributes 
+                    to delivering software that users love.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="section contacts">
+        <div class="container">
+            <h2>Contacts</h2>
+            <div class="contacts-grid">
+                <a href="mailto:epos144@gmail.com" class="contact-item">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">yevhenii.lytvynchuk.qa@outlook.com</span>
+                </a>
+                <a href="tel:+447366336127" class="contact-item">
+                    <span class="contact-label">Phone</span>
+                    <span class="contact-value">+44 7366 336127</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Yevhenii Lytvynchuk. Junior QA Engineer Portfolio.</p>
+        </div>
+    </footer>
+</body>
+</html>
